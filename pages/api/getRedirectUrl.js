@@ -12,6 +12,6 @@ export default function handler(req, res) {
   }
 
   limiter(req, res, () => {
-    res.status(200).json({ url: 'https://www.defi-cuts.shop/' });
+    res.status(200).json({ url: 'https://fridcuts.shop/' });
   });
 }
